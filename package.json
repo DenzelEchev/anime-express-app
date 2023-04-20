@@ -1,0 +1,28 @@
+{
+  "name": "anime-express-app",
+  "version": "1.0.0",
+  "description": "anime express app and it contains sass",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch sass/main.scss public/css/main.css",
+    "nodemon-watch": "nodemon server.js -e *",
+    "dev": "npm-run-all --parallel sass-watch nodemon-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenzelEchev/anime-express-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenzelEchev/anime-express-app/issues"
+  },
+  "homepage": "https://github.com/DenzelEchev/anime-express-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "sass": "^1.62.0"
+  }
+}
